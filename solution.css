@@ -1,0 +1,231 @@
+
+.box1{
+    width:250px;
+    /* margin-top: 10%; */
+    text-align: center;
+    height: 330px;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    color: white;
+    background-color: hsl(252, 100%, 67%);
+    background-image: linear-gradient(to top,  hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+.subbox-2{
+    background-image: linear-gradient(to bottom,  hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 4.25rem;
+    width: 8.5rem;
+    height: 8.5rem;
+    margin-left: 2.2rem;
+    margin-top: 2rem;
+}
+#textbox-1{
+    color: hsl(241, 100%, 89%);
+}
+#textbox-2{
+    font-size: 75px;
+}
+#textbox-3{
+    color: hsl(241, 100%, 89%);
+}
+#textbox-4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 1.3rem;
+}
+#textbox-5{
+    font-size: medium;
+    color: hsl(241, 100%, 89%);
+}
+#textbox-6{
+    color: rgb(0, 0, 0);
+    /* font-weight: bold; */
+    font-size: 16.5px;
+    font-weight: 500;
+}
+#textbox-7{
+    color: hsl(0, 100%, 67%);
+    font-size: 17px;
+}
+#textbox-8{
+    font-weight: bold;
+    margin-left:3rem;
+}
+#textbox-9{
+    color:hsl(39, 100%, 56%);
+    font-size: 17px;
+}
+#textbox-10{
+    font-weight: bold;
+    margin-left:3.2rem;
+}
+#textbox-11{
+    color: hsl(166, 100%, 37%);
+    font-size: 17px;
+}
+#textbox-12{
+    font-weight: bold;
+    margin-left:4rem;
+}
+#textbox-13{
+    color:hsl(234, 85%, 45%);
+    font-size: 17px;
+}
+#textbox-14{
+    font-weight: bold;
+    margin-left:4rem;
+}
+#textbox-15{
+    color: rgb(147, 144, 144);
+}
+.headbox{
+    display: flex;
+    gap: 1.5rem;
+    border-radius: 1.3rem;
+    width: 33rem;
+    box-shadow: 5px 6px 5px rgb(219,213,213);
+ background-color: hsl(0, 100%, 99%);
+}
+.subbox-3{
+    width: 250px;
+    height: 320px;
+    padding: .5rem;
+    border-radius: 0.5rem;
+    margin-left: -1rem;
+    color: black;
+    background-color: hsl(0, 100%, 99%);
+   
+}
+.subbox-4{
+    display: flex;
+    gap: 0.6rem;
+    width:220px;
+    border-radius: .5rem;
+    background-color: hsl(300, 78%, 96%);
+    height: 2.2rem;
+    padding: .1rem;
+    align-items: center;
+
+}
+.subbox-5{
+    display: flex;
+    gap: 0.6rem;
+    width:220px;
+    border-radius: .5rem;
+    background-color: rgb(255, 255, 219);
+    height: 2.2rem;
+    padding: .1rem;
+    align-items: center;
+}
+.subbox-6{
+    display: flex;
+    gap: 0.6rem;
+    border-radius: .5rem;
+    background-color: hsl(130, 79%, 94%);
+    height: 2.2rem;
+    padding: .1rem;
+    width:220px;
+    align-items: center;
+    
+}
+.subbox-7{
+    display: flex;
+    gap: 0.6rem;
+    width:220px;
+    border-radius: .5rem;
+    background-color:hsl(255, 80%, 94%) ;
+    height: 2.2rem;
+    padding: .1rem;
+    align-items: center;
+}
+#button{
+    margin-top: 2rem;
+    margin-left: .2rem;
+    padding: .6rem .4rem;
+    background-color: rgb(45, 45, 76);
+    color: white;
+    border-radius: 2rem;
+    font-weight: bold;
+    border: 3px solid transparent;
+    width: 14rem;
+    cursor: pointer;
+}
+.box-3{
+    gap: 0.9rem;
+    flex-direction: column;
+    display: flex;
+}
+
+     /* MOBILE DESIGN */
+@media(max-width:750px) {
+    body{
+        font-family:'Hanken Grotesk', sans-serif;
+    }
+    .headbox{
+        display: grid;
+        margin-left: 6rem;
+        /* background-color: blue; */
+        width: 19rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0; 
+        height:44.2rem
+    }
+    .box1{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        height: 18rem;
+        width: 17rem;
+    }
+    .subbox-2{
+        background-image: linear-gradient(to bottom,  hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+        border-radius: 4.25rem;
+        width: 8rem;
+        height: 8rem;
+        margin-left: 4.5rem;
+        margin-top: 1rem;
+    }
+    .subbox-3{
+        width: 270px;
+        height: 320px;
+        /* padding: .5rem;
+        border-top-right-radius: 0; */
+        margin-left: 1rem;
+        margin-top: -3.5rem;
+        color: black;
+        background-color: hsl(0, 100%, 99%);
+       
+    }
+    .subbox-4{
+        padding: .4rem;
+    }
+    .subbox-5{
+        padding: .4rem;
+    }
+    .subbox-6{
+        padding: .4rem;
+    }
+    .subbox-7{
+        padding: .4rem;
+    }
+    #button{
+        margin-top: 1.4rem;
+        margin-left: .5rem;
+        padding: .7rem .3rem;
+        background-color: rgb(45, 45, 76);
+        color: white;
+        border-radius: 2rem;
+        font-weight: bold;
+        border: 4px solid transparent;
+        width: 15rem;
+        cursor: pointer;
+    }
+    #textbox-2{
+        font-size: 58px;
+        font-weight: 700;
+    }
+    #textbox-5{
+        font-size: 0.915rem;
+        font-weight: lighter;
+    }
+}
